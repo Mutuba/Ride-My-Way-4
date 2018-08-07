@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <title>Ride-My-Way | Welcome</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Ride</span> My-Way</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="single_ride.html" id="rides_taken">Get Ride</a></li>
+            <li><a href="rides_taken.html" id="rides_taken">Taken</a></li>
+            <li><a href="rides_given.html" id="rides_given">Given</a></li>
+            <li><a href="rides_given_taken.html" id="rides_given_taken">Stats</a></li>
+            <li><a href="rides-taken.html"><button type="submit" class="button_2">LogOut</button></a></li>
+            
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="driver-dashboard">
+    <div class="container">
+                    <h2> Mutuba, Welcome to your Dashboard</h2>
+                    <h3> Create your Rides </h3>
+                    <h3 id="message"></h3>
+
+                    <form class="dashboard" id="driver_dashboard" >
+                        <div>
+                          <label>Ride Category</label><br>
+                          <input type="text" name="" placeholder="Enter Date of Ride" id="category" >
+                        </div>
+                        <div>
+                          <label>Pick Up Point</label><br>
+                          <input type="text" name="" placeholder="Pick Up Location" id="pickup" >
+                        </div>
+                        <div>
+                        <div>
+                          <label>Drop Off Point</label><br>
+                          <input type="text" name="" placeholder="Destination" id="dropoff" >
+                        </div>
+                        <div>                        
+                        <div>
+                          <label>Ride Time</label><br>
+                          <input type="text" name="" placeholder="Time of Travel" id="datetime" >
+                        </div>
+                        <br>
+                    <button class="button_2" name="submit" type="submit">Create Ride</button>
+                    </form>
+        </div>
+    </section>
+    <br>
+    <footer>
+        <p>Ride-My-Way, Copyright &copy; 2018. Mutuba</p>
+    </footer>
+    <script src="create_ride.js"></script>
+  </body>
+</html>
