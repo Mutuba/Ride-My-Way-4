@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <title>Ride-My-Way | Welcome</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Ride</span> My-Way</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="driver_actions.html">Actions</a></li>
+            <li><a href="sign_in.html"><button type="submit" class="button_2">Login</button></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Ride-My-Way</h1>
+            <p>Taking Your Travel to the Next Step</p>
+        </div>
+    </section>
+    <section id="driver-sign-in">
+    <div class="container">
+
+                    <h2> Enter Ride ID </h2>
+
+                    <h3 id="message"></h3>
+                    <form class="driver" id="get_ride_form">
+                      <div>
+                        <input id="getRideInput" type="number" placeholder="Enter ride id to search">
+                      </div>
+                      <div> <br>
+                        <!-- <input class="button_1"  id="getRideButton" type="submit"> -->
+                        <button class="button_1" id="getRideButton" name="submit" type="submit">Get a Ride</button>
+
+                      </div>
+                    </form>
+    </div>
+    <div id="rideDiv">
+      <div id="rideDetails">
+
+      </div>
+    </div>
+    </section>
+    <br>
+    <br>
+    <footer>
+        <p>Ride-My-Way, Copyright &copy; 2018. Mutuba</p>
+    </footer>
+    <script src="get_ride.js"></script>
+  </body>
+</html>
