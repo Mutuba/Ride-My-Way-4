@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <title>Ride-My-Way | Welcome</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Ride</span> My-Way</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sign_in.html"><button type="submit" class="button_2">Login</button></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+<!--     <section id="showcase">
+        <div class="container">
+            <h1>Welcome to Ride-My-Way</h1>
+            <p>Taking Your Travel to the Next Step</p>
+        </div>
+    </section> -->
+    <section id="driver-sign-in">
+    <div class="container">
+
+                    <h3> Enter Ride ID </h3>
+
+                    <h3 id="message"></h3>
+                    <form class="driver" id="join_ride_form">
+                      <div>
+                          <label>Request Description</label><br>
+                      <input type="text" name="" placeholder="Enter Description" id="description" >
+                      </div>
+                      <div>
+                        <br>
+                        <label>Request Priority</label><br>
+                        <input type="text" name="" placeholder="Enter Priority" id="priority" >
+                      </div>
+                      <br>
+                      <div>
+                        <input id="getRideInput" type="number" placeholder="Enter ride id to join">
+                      </div>
+                      <div> <br>
+                        <!-- <input class="button_1"  id="getRideButton" type="Request to Join"> -->
+                        <button class="button_1" id="getRideButton" name="submit" type="submit">Join a Ride</button>
+                      </div>
+                    </form>
+    </div>
+    <div id="rideDiv">
+      <div id="rideDetails">
+
+      </div>
+    </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <p>Ride-My-Way, Copyright &copy; 2018. Mutuba</p>
+    </footer>
+    <script src="join_ride.js"></script>
+  </body>
+</html>
