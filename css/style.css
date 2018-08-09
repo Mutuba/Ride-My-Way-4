@@ -5,6 +5,9 @@ body{
   background-color:#f4f4f4;
 }
 
+section{
+  min-height: 80vh;
+}
 /* Global */
 .container{
   width:90%;
