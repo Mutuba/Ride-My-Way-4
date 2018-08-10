@@ -22,7 +22,6 @@ function getRide(e) {
                                       <thead>
                                         <tr>
 
-                                          <th scope="col">Ride ID</th>
                                           <th scope="col">Ride Date</th>
                                           <th scope="col">Category</th>
                                           <th scope="col">Pick Up</th>
@@ -34,13 +33,14 @@ function getRide(e) {
                                       </thead>
                                       <tbody id="rides">
                                         <tr>
-                                          <td>${data[0]["ride_id"]}</td>
+
                                           <td>${data[0]["ride_date"]}</td>
                                           <td>${data[0]["category"]}</td>
                                           <td>${data[0]["pick_up"]}</td>
                                           <td>${data[0]["drop_off"]}</td>
                                           <td>${data[0]["date_time"]}</td>
                                           <td>${data[0]["ride_status"]}</td>
+                                          <td><button onclick="joinRide(${data[0]["ride_id"]})" class="button_1">Join offer</button></td>												
                                         
                                           
                                         </tr>
